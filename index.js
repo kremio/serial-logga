@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 const Promise = require('bluebird')
 const Prompt = Promise.promisifyAll( require('prompt') )
 const fs = require('fs')
